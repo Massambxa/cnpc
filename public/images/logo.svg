@@ -1,0 +1,55 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond du logo -->
+  <rect width="120" height="40" rx="8" fill="url(#gradient)" />
+  
+  <!-- Vagues -->
+  <path 
+    d="M25 28
+       Q30 26 35 28
+       Q40 30 45 28
+       Q50 26 55 28
+       Q60 30 65 28
+       Q70 26 75 28"
+    stroke="white" 
+    stroke-width="1.5"
+    fill="none"
+    opacity="0.5"
+  />
+  
+  <!-- Bateau -->
+  <path 
+    d="M40 25
+       L55 25
+       L60 20
+       L65 25
+       L80 25
+       C80 25 70 32 60 32
+       C50 32 40 25 40 25Z" 
+    fill="white"
+  />
+  <!-- Mât et voile -->
+  <path 
+    d="M58 20
+       L60 12
+       L62 20" 
+    stroke="white" 
+    stroke-width="2"
+    fill="none"
+  />
+  <path 
+    d="M60 12
+       Q65 15 62 20
+       Q55 17 58 20
+       Z" 
+    fill="white"
+    opacity="0.9"
+  />
+  
+  <!-- Définition du dégradé -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="120" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+</svg> 
